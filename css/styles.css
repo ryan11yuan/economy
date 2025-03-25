@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #0000001b;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-icon{
+    height: 50px;
+    width: auto;
+    margin-left: 30px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.auth-buttons a {
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.login {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+.login:hover {
+    background-color: #0056D2;
+    color: #fff;
+}
+.signup {
+    background-color: #FFD60A;
+    color: #0056D2;
+    font-weight: bold;
+}
+.signup:hover {
+    background-color: #FFC300;
+}
+
+section.hero {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 3px solid #000; */
+    margin: 0 75px 0;
+
+    color: #000;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.hero h1 {
+    font-size: 2.8em;
+    margin: 0;
+    max-width: 600px;
+    line-height: 1.4;
+    font-family: "Source Serif 4", serif;
+}
+
+section.hero .text p {
+    max-width: 760px;
+    /* border: 3px solid #000; */
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+section.hero img {
+    margin-top: 20px;
+    height: 300px;
+    width: auto;
+    border-radius: 50%;
+}
+
+section.hero .learn h2{
+    font-size: 2.4rem;
+    margin: 8px 0 30px;
+}
+
+section.hero .learn button{
+    border: 1px solid #0866b840;
+    margin: 15px 0 15px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    border-radius: 3%;
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #0056D2;
+    background-color: #d3eaf29d;
+    box-shadow: -3px 3px 3px #0000002a;
+}
+
+section.hero .learn button:hover{
+    border: 2px solid #0866b8af;
+}
+
+section.hero .learn button:active{
+    transform: translateY(-5px);
+}
+
+section.hero .learn i{
+    margin-left: 10px;
+}
+
+section.hero .learn-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.floating-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #0056D2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.floating-button:hover {
+    background-color: #000;
+    transform: translateY(-10px);
+}
+
+.floating-button:active {
+    transform: translateY(-5px);
+}
+
+.other h2 {
+    color: #f4f4f4;
+}
+
+
+
